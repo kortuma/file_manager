@@ -2,7 +2,6 @@
 
 from file_manager import FileManager
 
-# Пример использования
 FileManager.read_file('example.txt')
 FileManager.write_to_file('example.txt', 'Hello, World!')
 FileManager.copy_file('source.txt', 'destination.txt')
